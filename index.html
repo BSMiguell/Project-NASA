@@ -1,26 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
   <head>
-    <title>APOD Search</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
+    <header class="header">
       <h1>Picture Of The Day</h1>
 
-      <input type="date" name="" value="" />
+      <div class="data">
+        <input type="date" name="" value="" />
 
-      <button type="button" name="button">Get Media</button>
-      <h2>NASA RULES!</h2>
+        <button type="button" name="button">Get Media</button>
+      </div>
+    </header>
 
-      <div class="midia">
-        <img src="img/teste.jpg" alt="" />
-        <iframe src="" frameborder="0"></iframe>
-      </div>
-      <div class="description">
-        <h3>Explanation</h3>
-      </div>
-    </div>
+    <main class="main">
+      <section class="container">
+        <h2>NASA RULES!</h2>
+
+        <div class="midia">
+          <img src="img/teste.jpg" alt="" />
+        </div>
+
+        <div class="midia">
+          <iframe src="" frameborder="0"></iframe>
+        </div>
+
+        <div class="description">
+          <h3>Explanation</h3>
+        </div>
+      </section>
+    </main>
+
     <script src="script.js"></script>
   </body>
 </html>
