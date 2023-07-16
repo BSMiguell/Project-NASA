@@ -49,6 +49,11 @@ iframe {
   margin-bottom: 10px;
 }
 
+iframe {
+  height: 50vh;
+  width: 50vw;
+}
+
 .description {
   max-width: 100%;
   margin: 0 auto;
@@ -75,6 +80,12 @@ button:hover {
   background-color: #0056b3;
 }
 
+/* ===  lg === */
+@media (max-width: 1023px) {
+  iframe {
+    width: 100%;
+  }
+}
 /* === sm === */
 @media (max-width: 639px) {
   .header {
@@ -86,5 +97,8 @@ button:hover {
   h3 {
     font-size: 1rem;
     text-align: start;
+  }
+  iframe {
+    height: 30vh;
   }
 }
